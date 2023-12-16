@@ -1,3 +1,7 @@
 spring:
   application:
-    name: Config-Server
+    name: CONFIG-DEFAULT
+eureka:
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka/
